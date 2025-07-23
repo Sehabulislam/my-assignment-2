@@ -33,7 +33,7 @@
 }
 /* navigation bar section  */
 .nav-bar{
-    width: 1140px;
+    width: 1270px;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
@@ -101,4 +101,26 @@
   border: none;
   border-radius: 2px;
   background-color:rgba(233, 90, 8, 1) ;
+}
+/* flower-Lover section start */
+.plants-lover{
+  display: flex;
+  width: 1140px;
+  margin: 210px auto 134px;
+}
+.plants-lover img{
+  width:540px;
+  height: 595px;
+}
+.lover-title{
+  padding:36px 60px ;
+}
+.lover-title h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+.lover-title ul li{
+  font-size: 22px;
+  margin: 20px 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
