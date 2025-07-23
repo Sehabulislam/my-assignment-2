@@ -19,8 +19,17 @@
 }
 /* sheared style */
 #color-shear{
-  color: rgba(137, 135, 161, 1);
+  color: rgb(146, 144, 167);
   font-weight: 500;
+}
+#color-shear-2{
+  font-weight:400;
+}
+.color-tomato{
+  color: rgba(233, 90, 8, 1) ;
+}
+.color-shear-3{
+  color: rgba(0, 0, 0, 0.5);
 }
 /* navigation bar section  */
 .nav-bar{
@@ -34,5 +43,19 @@
     text-decoration: none;
     margin-left: 48px;
     color: #252432;
-    font-weight: bold;
+    font-weight:900;
+}
+/* bannar section start  */
+.bannar{
+  display: flex;
+  width: 1140px;
+  margin: 120px auto ;
+  align-items:flex-end;
+}
+.bannar-title h1{
+  font-size: 65px;
+  font-weight: bold;
+}
+.bannar-title p{
+  font-size: 22px;
 }
