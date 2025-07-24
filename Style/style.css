@@ -111,6 +111,14 @@
 .plants-lover img{
   width:540px;
   height: 595px;
+  position: relative;
+}
+.trusted-badge img{
+  position: absolute;
+  height:286px ;
+  width: 286px;
+  left: 1208px;
+  top: 1940px;
 }
 .lover-title{
   padding:36px 60px ;
