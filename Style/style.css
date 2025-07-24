@@ -103,22 +103,24 @@
   background-color:rgba(233, 90, 8, 1) ;
 }
 /* flower-Lover section start */
-.plants-lover{
+.flower-Lover{
   display: flex;
   width: 1140px;
   margin: 210px auto 134px;
 }
+.plants-lover{
+  position: relative;
+}
 .plants-lover img{
   width:540px;
   height: 595px;
-  position: relative;
 }
 .trusted-badge img{
+  height:286px;
+  width:286px;
   position: absolute;
-  height:286px ;
-  width: 286px;
-  left: 1208px;
-  top: 1940px;
+  top: -150px;
+  right: -120px;
 }
 .lover-title{
   padding:36px 60px ;
@@ -131,4 +133,52 @@
   font-size: 22px;
   margin: 20px 20px;
   color: rgba(0, 0, 0, 0.5);
+}
+/* latest deals section start */
+.latest-deal{
+  text-align: center;
+}
+.latest-deal h2{
+  font-size:50px ;
+  margin-bottom: 20px;
+}
+.offer-card-1{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 190px;
+  padding: 65px 48px;
+  margin-bottom: 20px;
+  border-radius:14px;
+}
+.offer-card-2{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 190px;
+  padding: 65px 48px;
+  border-radius:14px ;
+}
+.offer-card-3{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
+   background-repeat: no-repeat;
+   width: 753px;
+   height: 400px;
+   padding: 165px ;
+   border-radius:22px ;
+}
+.offer-card-3 h4{
+  font-size:40px ;
+}
+.offer-card-3 a{
+  font-size: 22px;
+}
+.offer-card-section{
+  display: flex;
+  width: 1140px;
+  margin: 110px auto ;
+  gap: 25px;
+}
+.offer-card-section h4, a{
+  color: white;
 }
