@@ -33,13 +33,13 @@
 }
 /* navigation bar section  */
 .nav-bar{
-    width: 1270px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
     align-items: center;
 }
-.links a{
+.nav-links a{
     text-decoration: none;
     margin-left: 48px;
     color: #252432;
@@ -92,14 +92,18 @@
   font-weight: bolder;
 }
 .flower button{
-  width: 100%;
-  height: 52px;
+  padding: 19px 80px;
   font-size:16px;
   font-weight: bold;
   color:white ;
   margin-top: 15px;
   border: none;
   background-color:rgba(233, 90, 8, 1) ;
+  transition: all 0.3s ease-in-out;
+}
+.flower button:hover {
+  transform: scale(1.1);
+  border-radius: 20px;
 }
 /* flower-Lover section start */
 .flower-Lover{
@@ -210,4 +214,29 @@
   color:white ;
   border: none;
   background-color:rgba(233, 90, 8, 1) ;
+}
+/* footer section start  */
+.footer-links{
+  padding: 50px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo{
+  width: 360px;
+}
+.web-rel-links a{
+  display: grid;
+  color:rgba(107, 114, 128, 1);
+  margin-bottom: 32px;
+  text-decoration: none;
+}
+.other-links a{
+    display: grid;
+    color:rgba(107, 114, 128, 1);
+    margin-bottom: 32px;
+    text-decoration: none;
+}
+.media-links a img{
+  margin-left: 24px;
+  align-items:center ;
 }
