@@ -33,7 +33,7 @@
 }
 /* navigation bar section  */
 .nav-bar{
-    width: 1140px;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
@@ -48,9 +48,9 @@
 /* bannar section start  */
 .bannar{
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
   margin: 120px auto ;
-  align-items:flex-end;
+  align-items:end;
 }
 .bannar-title h1{
   font-size: 65px;
@@ -73,12 +73,12 @@
 .flower-card{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  width: 1140px;
+  max-width:1140px;
   margin: 50px auto;
   gap: 20px;
 }
 .flower{
-  width: 273px;
+  max-width: 273px;
   height: 485px;
   text-align: center;
 }
@@ -178,7 +178,7 @@
 }
 .offer-card-section{
   display: flex;
-  width: 1140px;
+  max-width: 1140px;
   margin: 110px auto ;
   gap: 25px;
 }
@@ -239,4 +239,46 @@
 .media-links a img{
   margin-left: 24px;
   align-items:center ;
+}
+/* Media Quary */
+@media screen and (max-width: 576px) {
+  .nav-links a:nth-child(1),
+  .nav-links a:nth-child(2),
+  .nav-links a:nth-child(3){
+    display: none;
+  }
+  .nav-bar{
+  width: 100%;
+  max-resolution: 13px 18px;
+}
+.bannar {
+  width: 100%;
+  flex-direction: column-reverse;
+}
+.flower-card{
+  grid-template-columns: repeat(2,1fr);
+}
+.flower- div{
+ width: 50%;
+}
+.flower-card img{
+  width: 100%;
+}
+.flower-Lover{
+  display: grid;
+}
+.trusted-badge{
+  display: none;
+}
+.offer-card-section{
+  display: grid;
+  margin-left:51px auto ;
+}
+.offer-card-3{
+  width: 360px;
+  height: 172px;
+}
+.footer-links{
+  display: grid;
+}
 }
